@@ -1,0 +1,20 @@
+.env
+!.env.example
+.DS_Store
+.react-router/
+/build/
+node_modules
+*.tsbuildinfo
+
+.vscode/
+
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Ignore DevSpace cache and log folder
+.devspace/

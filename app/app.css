@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xs: 30rem;
+}
+
+html,
+body {
+  @apply !bg-neutral-100;
+}
